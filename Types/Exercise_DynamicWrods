@@ -1,0 +1,15 @@
+import os
+import time
+
+def main(printTime = 4):
+    content = 'Hello World! '
+    timer = 0
+    while timer <= printTime:
+        os.system('cls')
+        print(content)
+        time.sleep(0.2)
+        timer += 0.2
+        content = content[1:] + content[0]
+
+if __name__ == '__main__':
+    main()
