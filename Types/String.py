@@ -11,6 +11,8 @@ def operatorChar(str1, str2):
     print('str1 += str2: ', str1)
     print('Is \'wo\' now in str1? ', 'wo' in str1)
     # slicing
+    # [x:y] means x, x+1 ..., y (if x or y == 0 then it can be ignored)
+    # [x:y:step] means x, x+step, x+2*step ..., y
     print('str1[2]: ', str1[2])
     print('str1[2:5]: ', str1[2:5])
     print('str1[2::2]: ', str1[2::2])
